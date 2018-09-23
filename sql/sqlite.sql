@@ -1,4 +1,5 @@
-CREATE TABLE IF NOT EXISTS member (
+CREATE TABLE IF NOT EXISTS schedules (
     id           INTEGER NOT NULL PRIMARY KEY,
-    name         VARCHAR(255)
+    title       VARCHAR(255),
+    date      INTEGER
 );
