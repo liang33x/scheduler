@@ -1,0 +1,13 @@
+: cascade "include/layout.tx"
+
+: override content -> {
+
+<h1 style="padding: 70px; text-align: center; font-size: 80px; line-height: 1; letter-spacing: -2px;">User Profile</h1>
+<br>
+<br>
+<h2>Name : <: $name :></h2>
+<h3>Age : <: $age :></h3>
+<h3>University : <: $university :></h3>
+<h3>Hobby : <: $hobby :></h3>
+
+: }
